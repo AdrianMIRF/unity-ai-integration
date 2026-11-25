@@ -1,0 +1,29 @@
+# Secrets — never commit API keys
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+*.log
+npm-debug.log*
+.npm/
+
+# Unity (unity-client sample project, if added)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+*.csproj
+*.sln
+*.slnx
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
